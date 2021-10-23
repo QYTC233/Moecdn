@@ -14,14 +14,7 @@
     <meta name="force-rendering" content="webkit"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <title>MoeAPI</title>
-	<style>
-		body{
-			
-		}
-		li{
-			list-style-type:none
-		}
-	 </style>
+	
 	
 </head>
 
@@ -33,39 +26,31 @@
   <!-- <a class="mdui-typo-headline">MoeAPI</a> -->
   <span class="mdui-typo-title">首页</span>
   <div class="mdui-toolbar-spacer"></div>
-  <a href="javascript:reload();" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon material-icons">refresh</i></a>
+  <a href="javascript:location.reload();" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon material-icons">refresh</i></a>
   </div>
 </header>
-  <div class="mdui-drawer mdui-drawer-close" id="left-drawer">
-    <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
-          <div class="mdui-collapse-item ">
-        <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
-          <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
-          <div class="mdui-list-item-content">演示</div>
-          <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
-        </div>
-        <div class="mdui-collapse-item-body mdui-list">
-                      <a href="./icp" class="mdui-list-item mdui-ripple ">icp备案</a>
-                      <a href="./ACG" class="mdui-list-item mdui-ripple ">新浪acg随机图</a>
-                                  
-            </div>
-      </div>
-          
-          
-          
-      </div>
 
-  </div>
+
+
+<div class="mdui-drawer mdui-drawer-close" id="left-drawer">
+    <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+        <div class="mdui-collapse-item ">
+			<div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+			    <i class="mdui-list-item-icon mdui-icon material-icons mdui-text-color-blue">near_me</i>
+			    <div class="mdui-list-item-content">演示</div>
+			    <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+			</div>
+			<div class="mdui-collapse-item-body mdui-list">
+				<a href="./icp" class="mdui-list-item mdui-ripple ">icp备案</a>
+				<a href="./ACG" class="mdui-list-item mdui-ripple ">新浪acg随机图</a>
+									  
+			</div>
+		</div>  
+    </div>
+</div>
 
   
-    <script>
-         function reload()
-            {
-                location.reload();
-            }
-    </script>
-    
-   
+
 
 	<ul class="mdui-list mdui-typo ">
 		<li class="mdui-list-item mdui-ripple mdui-ripple-pink">
